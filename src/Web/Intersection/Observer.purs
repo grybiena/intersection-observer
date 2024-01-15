@@ -1,4 +1,10 @@
-module Web.Intersection.Observer where
+module Web.Intersection.Observer
+  ( IntersectionObserver
+  , IntersectionObserverCallback
+  , newIntersectionObserver
+  , observe
+  , unobserve
+  ) where
 import Web.Intersection.Observer.Entry
 import Web.Intersection.Observer.Options (IntersectionObserverOptions)
 import Web.DOM.Element (Element)
