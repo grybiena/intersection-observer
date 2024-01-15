@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "purescript-css": "^v6.0.0",
+    "purescript-options": "^v7.0.0",
+    "purescript-web-dom": "^v6.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "name": "purescript-intersection-observer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grybiena/intersection-observer.git"
+  }
+}
